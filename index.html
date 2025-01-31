@@ -30,7 +30,8 @@
     <header class="bg-gradient-to-b from-white to-shade">
         <nav class="mx-4 md:mb-10 flex md:max-w-screen-xl md:mx-auto mt-6 justify-between items-center">
             <div>
-                <img src="c2-assets/logo-header.png" alt="">
+                <img class="hidden md:block" src="c2-assets/logo-header.png" >
+                <img class="visible md:hidden" src="c2-assets/Group.png" alt="">
             </div>
             <div class="hidden md:flex md:gap-40 md:visible">
                 <div>
@@ -54,7 +55,8 @@
 
         </nav>
         <hr class="mt-5 mb-8 border-green-500 border border-b-[0.5px] md:hidden">
-        <section class="space-y-6 mb-20">
+
+        <section class="mx-5 space-y-6 mb-20 ">
             <div class="text-center space-y-4">
                 <h1 class=" text-5xl font-semibold md:px-96">Freshness <span class="text-pri-green">You Can
                         Count</span> On, Prices You’ll Love!</h1>
@@ -204,9 +206,10 @@
                             </div>
                         </div>
 
-                        <div class=" hidden items-center rounded-xl  md:grid grid-cols-2 md:gap-1 md:p-3 md:visible bg-white">
+                        <div
+                            class=" hidden items-center rounded-xl  md:grid grid-cols-2 md:gap-1 md:p-3 md:visible bg-white">
                             <img class="bg-shade rounded-lg size-20" src="c2-assets/tometo.png" alt="">
-                            <div >
+                            <div>
                                 <div class="flex items-center gap-1">
                                     <i class="text-amber-400 text-md fa-solid fa-star"></i>
                                     <p>4.5</p>
@@ -215,15 +218,90 @@
                                 <p>$55.2</p>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
+
+        <section class="mx-5 mb-[450px] md:max-w-screen-xl md:mb-96 md:mx-auto">
+            <h3 class="text-3xl font-semibold text-pri-green mb-8">Arrival & Offers</h3>
+
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-5">
+
+                <div
+                    class="p-3 pr-0 rounded-xl bg-[#115414] flex items-center md:rounded-2xl md:justify-between  md:p-8  md:col-span-3">
+                    <div class="space-y-3 md:space-y-6">
+                        <img src="c2-assets/dawat-logo.png" alt="">
+                        <button class="p-2 text-sm text-white rounded-lg  bg-[#63B76D] md:text-2xl md:px-9 md:py-4">Cook
+                            Exotic Dishes</button>
+                        <h3 class="text-xl text-white md:text-4xl ">UP TO <span class="font-bold">20% OFF<span></h3>
+                    </div>
+                    <div class="">
+                        <img src="c2-assets/dawat-mock-up.png" alt="">
+                    </div>
+                </div>
+
+                <div
+                    class="p-3  flex items-center rounded-lg justify-between md:rounded-3xl md:px-6 bg-[#102861] md:col-span-2">
+                    <div class="space-y-2 md:space-y-4">
+                        <img class="h-[100px] md:h-full" src="c2-assets/india-gate-logo.png" alt="">
+                        <button
+                            class="py-2 px-3 text-sm text-white rounded-lg md:text-2xl bg-[#2A4D97] md:px-6 md:py-4">World's
+                            No.1 Rice</button>
+                        <h3 class="text-xl text-white md:text-4xl  ">UP TO <span class="font-bold">20% OFF<span></h3>
+                    </div>
+                    <div>
+                        <img class="max-h-[180px] md:max-h-full" src="c2-assets/india-gate-mock-up.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
+        <section class=" relative pb-20 bg-pri-green pt-52 space-y-20 md:pt-28 ">
+          
+                <div
+                    class="absolute flex bg-shade rounded-3xl items-center justify-around bottom-[68%] mx-5 py-7 flex-col md:gap-8  md:bottom-72 md:left-32 md:right-32 md:flex-row md:px-20 md:py-10 md:max-w-screen-xl md:mx-auto ">
+                    <div>
+                        <img src="c2-assets/vegetable-busket.png" alt="">
+                    </div>
+                    <div class="space-y-4 text-center px-5 md:text-start md:space-y-5">
+                        <h2 class="text-pri-green text-3xl font-semibold md:text-black">Get Grocery News!</h2>
+                        <p>Exclusive training tips, ticks, product deals and more.</p>
+                        <input class=" p-4 w-[100%] text-[#C4C4C4] " type="email" placeholder="Your email">
+                        <button
+                            class="block mx-auto px-7 py-3 text-white rounded-lg bg-pri-green md:mx-0">Subscribe</button>
+                    </div>
+                </div>
+            
 
+            <div class="mx-5 pt-[30%] space-y-7 flex flex-col justify-between text-white md:pt-20 md:flex-row md:max-w-screen-xl md:mx-auto">
+
+                <div class="flex flex-col space-y-7 md:flex-row">
+                    <div class="space-y-1">
+                        <img src="c2-assets/logo-footer.png" alt="">
+                        <p class="pr-[40%]">Discover a world of treats, toys, and essentials handpicked for your furry
+                            friends</p>
+                    </div>
+                    <div>
+                        <ul class="space-y-1 md:space-y-5 text-[#EFEBE3]">
+                            <li>Service</li>
+                            <li>product</li>
+                            <li>Contact us</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="my-auto">
+                    <p>Follow Us</p>
+                    <div class="space-x-3 ">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
 </body>
 
